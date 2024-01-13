@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./download.jpeg">
+
+
+</head>
+<body>
+    <h1 style="color: #ffff; padding: 20px;font: 400 30px 'Roboto-Bold', sans-serif"><center>Multiple Timers App</center></h1>
+    <div class="timer-input-section" >
+        <h3 >Set Time :</h3>
+
+    <input type="number" id="hours" placeholder="HH" min="0" max="9999">
+    <input type="number" id="minutes" placeholder="MM" min="0" max="59">
+    <input type="number" id="seconds" placeholder="SS" min="0" max="59">
+  <button id="start-new-timer">Set</button>
+    </div>
+    <div class="rect">Current Timers</div>
+    <div id="current" style="color: #ffff; margin-top: 20px;font: 400 12px 'Roboto-Regular', sans-serif;">You have no timers currently!</div>
+
+   <div class="active-timers-display-section">
+    
+   </div>
+    <script src="script.js"></script>
+</body>
+</html>

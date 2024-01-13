@@ -1,0 +1,72 @@
+body {
+    background: #1d1d23;
+    width: 100vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-input-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font: 500 15px 'Roboto-Medium', sans-serif;
+    color: #ffffff;
+    background: #34344a;
+
+    width: 600px;
+    height: 85px;
+    margin-bottom: 10px;
+}
+.timer-input-section1 {
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font: 500 20px 'Roboto-Bold', sans-serif;
+    color: #39393e;
+    background: #f0f757;
+
+    width: 600px;
+    height: 85px;
+    margin-bottom: 10px;
+}
+.rect{
+    color: #ffffff;
+text-align: center;
+font: 500 15px 'Roboto-Medium', sans-serif;
+margin-top: 20px;
+background: #39393e;
+border-radius: 50px;
+width: 200px;
+padding: 10px;
+margin-bottom: 0px;
+}
+
+#start-new-timer {
+    background: #f0f757;
+    border-radius: 26px;
+    width: 70px;
+    height: 30px;
+    margin-left: 20px;
+}
+#start-new-timer1{
+    background: #34344a;;
+    color:#ffffff;
+    border-radius: 26px;
+    width: 70px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.active-timers-display-section {
+    margin-top: 30px;
+}
+
+.timer-display.ended {
+    color: #ffffff;
+    font: 20px;
+}
